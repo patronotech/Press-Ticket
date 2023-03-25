@@ -63,13 +63,12 @@ const useStyles = makeStyles(theme => ({
 }));
 
 
-
-
 const Login = () => {
   const classes = useStyles();
-
+  
   const [user, setUser] = useState({ email: "", password: "" });
-
+  const [showPassword, setShowPassword] = useState(false);
+	
   const { handleLogin } = useContext(AuthContext);
 
   const handleChangeInput = e => {
@@ -87,7 +86,7 @@ const Login = () => {
         <CssBaseline />
         <div className={classes.paper}>
           <div>
-            <img style={{ margin: "0 auto", height: "80px", width: "100%" }} src={logo} alt="Whats" />
+          <img style={{ margin: "0 auto", height: "80px", width: "100%" }} src={logo} alt="SysZap" />
           </div>
           <Typography component="h1" variant="h5">
             {i18n.t("login.title")}
@@ -111,15 +110,31 @@ const Login = () => {
               margin="normal"
               required
               fullWidth
-              name="password"
-              label={i18n.t("login.form.password")}
-              type="password"
-              id="password"
-              value={user.password}
-              onChange={handleChangeInput}
-              autoComplete="current-password"
-              
-              
+               name="password"
+                        label={i18n.t("login.form.password")}
+                        id="password"
+                        value={user.password}
+                        onChange={handleChangeInput}
+                        autoComplete="current-password"
+                        type={showPassword ? "text" : "password"}
+                        InputProps={{
+                            endAdornment: (
+                                <InputAdornment position="end">
+                                    <IconButton
+                                        aria-label="toggle password visibility"
+                                        onClick={() =>
+                                            setShowPassword((e) => !e)
+                                        }
+                                    >
+                                        {showPassword ? (
+                                            <VisibilityOff />
+                                        ) : (
+                                            <Visibility />
+                                        )}
+                                    </IconButton>
+                                </InputAdornment>
+                            ),
+                        }}
             />
             <Button
               type="submit"
@@ -150,7 +165,7 @@ const Login = () => {
               <br></br>
               Todos os direitos reservados - <b>v{versionSystem}</b>
               <br></br>
-              © 2022 - {new Date().getFullYear()}
+              © 2021 - {new Date().getFullYear()}
             </Link>
             {"."}
           </Typography>
