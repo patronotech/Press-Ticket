@@ -1,13 +1,15 @@
 #!/bin/bash
 echo ""
-echo "██████╗ ██████╗ ███████╗███████╗███████╗    ████████╗██╗ ██████╗██╗  ██╗███████╗████████╗"
-echo "██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝    ╚══██╔══╝██║██╔════╝██║ ██╔╝██╔════╝╚══██╔══╝"
-echo "██████╔╝██████╔╝█████╗  ███████╗███████╗       ██║   ██║██║     █████╔╝ █████╗     ██║   "
-echo "██╔═══╝ ██╔══██╗██╔══╝  ╚════██║╚════██║       ██║   ██║██║     ██╔═██╗ ██╔══╝     ██║   "
-echo "██║     ██║  ██║███████╗███████║███████║       ██║   ██║╚██████╗██║  ██╗███████╗   ██║   "
-echo "╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝       ╚═╝   ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝   ╚═╝   "
+echo '
+███╗   ███╗██╗  ██╗████████╗██╗  ██╗██╗   ██╗██████╗ 
+████╗ ████║██║ ██╔╝╚══██╔══╝██║  ██║██║   ██║██╔══██╗
+██╔████╔██║█████╔╝    ██║   ███████║██║   ██║██████╔╝
+██║╚██╔╝██║██╔═██╗    ██║   ██╔══██║██║   ██║██╔══██╗
+██║ ╚═╝ ██║██║  ██╗   ██║   ██║  ██║╚██████╔╝██████╔╝
+╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ 
+'
 echo " "
-echo "ATUALIZANDO PARA A VERSÃO MAIS RECENTE DO PRESS TICKET!"
+echo "ATUALIZANDO PARA A VERSÃO MAIS RECENTE..."
 echo " "
 
 sleep 2
@@ -37,17 +39,23 @@ sleep 2
 
 sudo rm -rf node_modules
 npm install
-sudo rm -rf dist
 npm run build
 
 echo " "
-echo "EXECUTANDO O MIGRATE E SEED"
+echo "EXECUTANDO O DB:MIGRATE"
 echo " "
 
 sleep 2
 
 npx sequelize db:migrate
-npx sequelize db:seed
+
+echo " "
+echo "EXECUTANDO O DB:SEED:ALL"
+echo " "
+
+sleep 2
+
+npx sequelize db:seed:all
 
 echo " "
 echo "ACESSANDO O FRONTEND"
@@ -69,7 +77,7 @@ if [ ! -e src/config.json ]; then
   echo "Criando o arquivo config.json"
   cp src/config.json.example src/config.json
   else
-  echo "O arquivo config.json já existe"
+  echo "Aruivo config.json já criado"
 fi
 
 
@@ -83,7 +91,6 @@ sleep 2
 
 sudo rm -rf node_modules
 npm install
-rm -rf build
 npm run build
 
 echo " "
@@ -95,5 +102,5 @@ sleep 2
 pm2 restart all
 
 echo " "
-echo "PRESS TICKET ATUALIZADO COM SUCESSO!!!"
+echo "SERVIDOR ATUALIZADO!!!"
 echo " "

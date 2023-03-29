@@ -411,6 +411,10 @@ const messages = {
           token: "Ficha"
         },
         appBar: {
+          message: {
+            hi: "Hola",
+            text: "bienvenido al Sistema"
+          },
           user: {
             profile: "Perfil",
             logout: "Cerrar sesión",
@@ -583,6 +587,22 @@ const messages = {
           darkMode: {
             name: "Habilitar modo oscuro",
             note: "Cambiar entre el modo claro y el modo oscuro",
+            options: {
+              enabled: "Habilitado",
+              disabled: "Deshabilitado",
+            },
+          },
+          ASC: {
+            name: "Pedido de Entradas",
+            note: "Cuando está habilitado, se ordenará de forma ascendente (ASC), al deshabilitarlo se ordenará de forma descendente (DESC)",
+            options: {
+              enabled: "Habilitado",
+              disabled: "Deshabilitado",
+            },
+          },
+          created: {
+            name: "Orden de entradas (createdAt or updateAt)",
+            note: "Cuando se activa, se ordenará por fecha de creación (createdAt), al desactivar se ordenará por fecha de actualización (updateAt)",
             options: {
               enabled: "Habilitado",
               disabled: "Deshabilitado",

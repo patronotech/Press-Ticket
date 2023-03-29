@@ -1,42 +1,74 @@
 # Changelog
 
+### 27/03/2023
+
+- [Função Copiar Token](https://github.com/rtenorioh/Press-Ticket/commit/40e9aa01ccec667bac1e63f03ba90c8b32287f92); e
+- [Atualização de versão](https://github.com/rtenorioh/Press-Ticket/commit/cb94ebf25e29ce8c2bab204d44033e3c89ebc85f).
+
+### 26/03/2023
+
+- [Correção na ordem dos comandos](https://github.com/rtenorioh/Press-Ticket/commit/d32c171d007596a667e9255c2d02d419015671a0);
+- [Ajustes e Correção](https://github.com/rtenorioh/Press-Ticket/commit/833cdeb9054b536ef9ae7895c7e13cb6c5379769);
+- [Ordenação dos Tickets](https://github.com/rtenorioh/Press-Ticket/commit/2c64899a4451aeaf23863a1d74abc9a5390387ae);
+- [Ordenação dos Tickets - Seed](https://github.com/rtenorioh/Press-Ticket/commit/a9f1acb4fe6d01e1ed0e5bb2243902d6fa3f96a1);
+- [Atualização do layout - Conexão](https://github.com/rtenorioh/Press-Ticket/commit/3005c56dcd2e7c6cd6e4355ed789f1638718598b);
+- [Salvando as SEED's](https://github.com/rtenorioh/Press-Ticket/commit/64c64107d1b4d81f2cc8c397ae508b52f4df7532); e
+- [Atualização do layout - Setores](https://github.com/rtenorioh/Press-Ticket/commit/9ccf3de9610aa112fabd52433da93cff3d8887b6).
+
+### 23/03/2023
+
+- [Atualização da documentação do repositório](https://github.com/rtenorioh/Press-Ticket/commit/e7b374a537fc915e68a97fc35037aaa5f912069a).
+
+### 21/03/2023
+
+- [Atualização de Libs e correção no logger](https://github.com/rtenorioh/Press-Ticket/commit/ea127c2356011eb5f3a2aa2b1045275e87323563); e
+- [Atualização de versão](https://github.com/rtenorioh/Press-Ticket/commit/bff892a475a5b59d26bbd1dbf79bb098b72cede8).
+
 ### 20/03/2023
-[Atualização de versão 1.4.3](https://github.com/FilipeCamillo/Press-Ticket/commit/efe167007075c56df695e0c567d4287ea2d7a70a)
 
-[Reconhecimento de mensagem apagada pelo cliente](https://github.com/FilipeCamillo/Press-Ticket/commit/56b5dc905f6dc03be6cd5878100a7a63e80077d3)
+- [Titulo da página no .env](https://github.com/rtenorioh/Press-Ticket/commit/20621e2cb89bc6e3ff32e57c1e5d86a6661e8df5); e
+- [Atendente no appBar](https://github.com/rtenorioh/Press-Ticket/commit/d29363e2b60bbcddddb7b810cc578d01018fe73d).
 
-[Adição de envio de ID de tags pela API](https://github.com/FilipeCamillo/Press-Ticket/commit/56b5dc905f6dc03be6cd5878100a7a63e80077d3)
+### 19/03/2023
 
-[Adição de envio de ID do usuário pela API](https://github.com/FilipeCamillo/Press-Ticket/commit/56b5dc905f6dc03be6cd5878100a7a63e80077d3)
+- [Exibindo ID dos Setores](https://github.com/rtenorioh/Press-Ticket/commit/b3bd589d4307a5d477e80859f15404308e87f5e7);
+- [Exibindo ID dos Setores - Pages](https://github.com/rtenorioh/Press-Ticket/commit/33792527e1f27b4d7ec3886f485d4290a303a59a); e
+- [Exibindo ID dos Atendentes](https://github.com/rtenorioh/Press-Ticket/commit/19ee73354655deb6674716866da967ddb341b806).
+- 
 
-[Atualização de layout da pagina de login](https://github.com/FilipeCamillo/Press-Ticket/commit/56b5dc905f6dc03be6cd5878100a7a63e80077d3)
+### 15/03/2023
 
-[Atualização de "pino": "^7.8.0", para "pino": "^8.11.0",](https://github.com/FilipeCamillo/Press-Ticket/commit/56b5dc905f6dc03be6cd5878100a7a63e80077d3)
+- [Voltando para o player nativo](https://github.com/rtenorioh/Press-Ticket/commit/7cd10ff15fb8548453665c46f986697f0b67f7e6).
 
-[Atualização de "pino-pretty": "^9.1.1", para "pino-pretty": "^10.0.0",](https://github.com/FilipeCamillo/Press-Ticket/commit/56b5dc905f6dc03be6cd5878100a7a63e80077d3)
+### 10/03/2023
 
-[Atualização de logger.ts](https://github.com/FilipeCamillo/Press-Ticket/commit/56b5dc905f6dc03be6cd5878100a7a63e80077d3)
-### 18/03/2023
-[Adicionando opção de enviar o ID do setor pela API](https://github.com/FilipeCamillo/Press-Ticket/commit/aba49e56f4e9bb34a0cdd55f5e8074fb3080663a)
+- [Verificação de DEMOVERSION](https://github.com/rtenorioh/Press-Ticket/commit/edf9b371f819af210150c2ae0e854b885cbad4ed).
 
-[Melhorando e a pagina da API, e adicionando opções de traduções](https://github.com/FilipeCamillo/Press-Ticket/commit/aba49e56f4e9bb34a0cdd55f5e8074fb3080663a)
+### 06/03/2023
 
-[Melhorando função de envio de mensagem fora do horário comerical com dias da semana](https://github.com/FilipeCamillo/Press-Ticket/commit/aba49e56f4e9bb34a0cdd55f5e8074fb3080663a)
+- [Atualização das informações](https://github.com/rtenorioh/Press-Ticket/commit/5146c2a1bbf417ff1b53ae2e8a0359d203eb7cad).
 
-### 16/03/2023
-[Adicionando cor na divisão do historico para os chamado.](https://github.com/FilipeCamillo/Press-Ticket/commit/c9d634a7f18b2e1c205407a61fd1334a0beb50e4)
+### 05/03/2023
 
-[Correção no horario comercial com dias da semana por conexão.](https://github.com/FilipeCamillo/Press-Ticket/commit/e5df8d615ddbcf6db40b662250d24422bdc58cc0)
+- [Exibição da Msg Apaga pelo cliente](https://github.com/rtenorioh/Press-Ticket/commit/491c42f1d581775d2c7c42c51dc0b586ecc9dbc7);
+- [Correção exibição msg apagada](https://github.com/rtenorioh/Press-Ticket/commit/ccd3c49ff6c213782a00ee40e64decb7cc2e63d2); e
+- [Atualização da versão](https://github.com/rtenorioh/Press-Ticket/commit/7cf601c45065e915a99ccbd12e6c31b6a9180789).
 
-[Atualização - hoario comercial com dias da semana para conexões.](https://github.com/FilipeCamillo/Press-Ticket/commit/b762238b161fc87acaa2d5f7f3da551e0698cf6e#diff-4192be3f2b53ac75a8cac1e87e1e70a8d55e7d99e085dbd84d53a6ab1535e83d)
+### 25/02/2023
 
-[Atualização - Retirada do botão visualizar, ao clicar no chamado pendente é possivel já visualizar a conversa.](https://github.com/FilipeCamillo/Press-Ticket/commit/b762238b161fc87acaa2d5f7f3da551e0698cf6e#diff-4192be3f2b53ac75a8cac1e87e1e70a8d55e7d99e085dbd84d53a6ab1535e83d)
+- [Inclusão do campo number](https://github.com/rtenorioh/Press-Ticket/commit/bfc403fb3cfa51bc542d3f3bf48b424d104b7a43).
+
+### 12/02/2023
+
+- [Atualização da lib wwebjs de 1.19.3 para 1.19.4](https://github.com/rtenorioh/Press-Ticket/commit/9373ba6bba4be8edbd912ad5cd5a1f3ce25d886e).
+>>>>>>> f469732 (Changelog 05/03/2023)
 
 ### 08/02/2023
 
 - [Correção do não envio dos Setores no primeiro contato](https://github.com/rtenorioh/Press-Ticket/commit/e2eb18ff7788c4c625d410bf158e1086007144b1);
-- [Remoção do console.log](https://github.com/rtenorioh/Press-Ticket/commit/61c94e3776afefe56780ae900ad52e828449bcbc); e
-- [Atualização de versão](https://github.com/rtenorioh/Press-Ticket/commit/cb5edbcb6213d861dd6debc06bb8772626ec1e57).
+- [Remoção do console.log](https://github.com/rtenorioh/Press-Ticket/commit/61c94e3776afefe56780ae900ad52e828449bcbc);
+- [Atualização de versão](https://github.com/rtenorioh/Press-Ticket/commit/cb5edbcb6213d861dd6debc06bb8772626ec1e57); e
+- [Correção](https://github.com/rtenorioh/Press-Ticket/commit/e8c9bc49490417be81955a211dd07bb8a5ea969c)
 
 ### 30/01/2023
 
